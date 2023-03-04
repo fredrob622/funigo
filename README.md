@@ -7,11 +7,11 @@ Le lien de la video de e-genieclimatique pour écrire en markdown
 # Fichier README.md du projet funigo
 ----------------------------------------------------------------------------------------------
 
-1. ##__Démarrer__VirtualBox__
+1. ## __Démarrer__VirtualBox__
 -------
-2. ##__Démarrer__le__host__KUN18OP__
+2. ## __Démarrer__le__host__KUN18OP__
 -------
-3. ##__Démarrer__le__BACKEND__
+3. ## __Démarrer__le__BACKEND__
 -------
 
 *aller dans le répertoire D:\funigo\backend*
@@ -59,7 +59,7 @@ D:\funigo\backend\routes
 Express Application exemple à l'écoute sur le port 5000!
 Connection Established Successfully
 
-4. ##__Demarrer__le__FRONTEND__
+4. ## __Demarrer__le__FRONTEND__
 
 > Vérifier la présence du fichier __index.html__
 Dans PS D:\funigo> cd .\frontend\
