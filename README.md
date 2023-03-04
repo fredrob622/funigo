@@ -7,11 +7,11 @@ Le lien de la video de e-genieclimatique pour écrire en markdown
 # Fichier README.md du projet funigo
 ----------------------------------------------------------------------------------------------
 
-1. ##__Demarrer__VirtualBox__
+1. ##__Démarrer__VirtualBox__
 -------
-2. ##__Demarrer__le__host__KUN18OP
+2. ##__Démarrer__le__host__KUN18OP__
 -------
-3. ##__Demarrer__le__BACKEND
+3. ##__Démarrer__le__BACKEND__
 -------
 
 *aller dans le répertoire D:\funigo\backend*
@@ -43,7 +43,7 @@ d-----        16/10/2022     19:35                routes
 -a----        15/10/2022     19:08            531 package.json
 -a----        07/08/2022     22:38            809 server.js
 
-*Demarrer le server.js*
+*Démarrer le server.js*
 
 PS D:\funigo\backend> nodemon server.js
 [nodemon] 2.0.15
@@ -59,7 +59,7 @@ D:\funigo\backend\routes
 Express Application exemple à l'écoute sur le port 5000!
 Connection Established Successfully
 
-4. ##__Demarrer__le__FRONTEND
+4. ##__Demarrer__le__FRONTEND__
 
 > Vérifier la présence du fichier __index.html__
 Dans PS D:\funigo> cd .\frontend\
