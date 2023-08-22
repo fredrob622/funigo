@@ -1,5 +1,4 @@
 // importer module https
-const http = require('http');
 const https = require('https');
 // importer module fs
 const fs = require('fs');
@@ -31,14 +30,9 @@ var options = {
   cert: fs.readFileSync('../cert-funigo/funigofr/cert.pem')
 };
 
-// https.createServer(options, function(req,res) {
-//   res.writeHead(200);
-//   res.end("site https funigo.fr sur le port 5000");
-// }).listen(5000);
-
-// Créer le service htttps
-https.createServer(options, app).listen(process.env.PORT, () => {
-    console.log(`Express Application exemple à l'écoute sur le port ${process.env.PORT}!`)
-  });
+https.createServer(options, function(req,res) {
+  res.writeHead(200);
+  res.end("site https funigo.fr sur le port 5000");
+}).listen(5000);
 
 
